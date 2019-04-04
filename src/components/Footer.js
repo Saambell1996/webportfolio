@@ -12,7 +12,7 @@ export default class Footer extends Component {
           <Container>
             <div className="footer-container">
               <Row>
-                <Col size="12">Sam Bell | Software Developer @ Accenture 2017-2019</Col>
+                <Col size="12">Sam Bell | Web Developer 2017-2019</Col>
               </Row>
             </div>
             <Row>

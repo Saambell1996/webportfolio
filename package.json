@@ -26,14 +26,15 @@
     "react-scroll-into-view": "^1.5.0",
     "react-scroll-to": "^2.0.5",
     "react-spinkit": "^3.0.0",
-    "reactstrap": "^7.1.0"
+    "reactstrap": "^7.1.0",
+    "yarn": "^1.15.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
