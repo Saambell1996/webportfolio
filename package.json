@@ -1,0 +1,51 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://Saambell1996.github.io/webportfolio/",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.17",
+    "@fortawesome/free-brands-svg-icons": "^5.7.2",
+    "@fortawesome/free-regular-svg-icons": "^5.7.2",
+    "@fortawesome/free-solid-svg-icons": "^5.8.1",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.2.1",
+    "emailjs-com": "^2.3.2",
+    "gh-pages": "^2.0.1",
+    "i": "^0.3.6",
+    "npm": "^6.9.0",
+    "react": "^16.7.0",
+    "react-animate-on-scroll": "^2.1.5",
+    "react-dom": "^16.7.0",
+    "react-ga": "^2.5.7",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^2.1.8",
+    "react-scroll": "^1.7.10",
+    "react-scroll-into-view": "^1.5.0",
+    "react-scroll-to": "^2.0.5",
+    "react-spinkit": "^3.0.0",
+    "reactstrap": "^7.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "terser": "^3.14.1"
+  }
+}
